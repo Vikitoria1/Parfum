@@ -1,0 +1,505 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  background-color: #fff0f7;
+}
+
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 24px 0 146px;
+  background-image: url(../images/top-back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 80px;
+  padding: 17px 40px;
+  background-color: #fff;
+}
+
+.header__actions-link {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-right: 24px;
+}
+
+.header__nav-link {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-left: 24px;
+}
+
+.top {
+  background-image: url(../images/top-back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 221px;
+}
+
+.top__inner {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.top__title {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 80px;
+  line-height: 100%;
+  margin-bottom: 24px;
+}
+
+.top__btn {
+  border-radius: 32px;
+  padding: 12px 24px;
+  width: 216px;
+  height: 41px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #fff;
+}
+
+.seen {
+  margin: 80px 0 80px;
+}
+
+.seen__text {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.seen__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 80px;
+}
+
+.seen__item img {
+  display: block;
+}
+
+.feature {
+  margin-bottom: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.feature__title {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 120%;
+  margin-bottom: 40px;
+}
+
+.feature__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+
+.feature__item img {
+  display: block;
+}
+
+.feature__parfume-name {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  margin: 12px 0 4px;
+}
+
+.feature__parfume-style {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.feature__parfume-prise {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.feature__parfume-btn {
+  border-radius: 32px;
+  padding: 12px 24px;
+  width: 316px;
+  height: 41px;
+  background-color: #abb249;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about {
+  margin-bottom: 80px;
+}
+
+.about__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__inner img {
+  margin-right: 180px;
+  border-radius: 16px;
+}
+
+.about__list {
+  max-width: 664px;
+  text-align: center;
+}
+
+.about__title {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 120%;
+  margin-bottom: 40px;
+}
+
+.about__text {
+  max-width: 368px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  margin-bottom: 40px;
+}
+
+.about__btn {
+  border-radius: 32px;
+  padding: 12px 24px;
+  width: 368px;
+  height: 41px;
+  background-color: #abb249;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.create {
+  padding: 16px 0 16px;
+  background-color: #e8a94c;
+}
+
+.create__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.create__title {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 41px;
+  line-height: 120%;
+}
+
+.safe {
+  margin: 80px 0 80px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.safe__inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.safe__title {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 120%;
+  margin-bottom: 40px;
+}
+
+.save__internal {
+  display: flex;
+}
+
+.safe__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  max-width: 666px;
+  gap: 47px 31px;
+  margin-right: 32px;
+}
+
+.safe__item {
+  max-width: 304px;
+}
+
+.safe__item-title {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 12px 0 12px;
+}
+
+.safe__item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.safe__img {
+  border-radius: 16px;
+}
+
+.reviews {
+  margin: 80px 0 80px;
+}
+
+.reviews__title {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.reviews__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+
+.reviews__list {
+  max-width: 432px;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 40px 40px 24px;
+}
+
+.reviews__item-raiting {
+  margin-bottom: 16px;
+}
+
+.reviews__item-text {
+  font-size: 16px;
+  line-height: 140%;
+  margin-bottom: 24px;
+}
+
+.reviews__inner-title {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+.reviews__inner-text {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.reviews__item-img {
+  display: flex;
+  gap: 12px;
+}
+
+.reviews__arrows {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.reviews__arrows-btn {
+  border-radius: 100%;
+  background-color: #fff;
+  width: 48px;
+  height: 48px;
+}
+
+.footer {
+  background-color: #dd6249;
+  padding: 80px 40px;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__sub {
+  max-width: 552px;
+}
+
+.footer__sub-title {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 120%;
+  color: #fff;
+  margin: 40px 0 24px;
+}
+
+.sub__form {
+  display: flex;
+  width: 489px;
+}
+
+.sub__email {
+  width: 366px;
+  border-radius: 32px;
+  border: none;
+  stroke-width: 1px;
+  background-color: #fff;
+  padding: 8px 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000;
+  margin-right: 8px;
+}
+
+.sub__btn {
+  border-radius: 32px;
+  padding: 12px 20px;
+  width: 115px;
+  background-color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-evenly;
+  width: 538px;
+  gap: 0 32px;
+}
+
+.footer__content-list {
+    max-width: 130px;
+}
+
+.footer__content-title {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.footer__content-item {
+  margin-bottom: 4px;
+}
+
+.footer__content-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fff;
+}
