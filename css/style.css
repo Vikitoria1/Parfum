@@ -585,6 +585,8 @@ body {
   height: auto;
 }
 
+/*-------SHOP------*/
+
 .header__shop {
   padding-top: 24px;
 }
@@ -671,6 +673,166 @@ body {
   transform: scale(1.1);
   transition: 0.3s ease;
   background-color: #e8a94c;
+}
+
+/*-------About------*/
+
+.header__about {
+  padding-top: 24px;
+}
+
+.header__about,
+.top__about {
+  background: url(../images/about-bg-1.jpg) center center no-repeat fixed;
+  background-size: cover;
+}
+
+.top__about {
+  padding: 188px 0 264px;
+}
+
+.artisanal {
+  padding: 80px 40px;
+}
+
+.artisanal__title {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.artisanal__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px 32px;
+}
+
+.artisanal__item {
+  max-width: 352px;
+}
+
+.artisanal__num {
+  font-weight: 300;
+  font-size: 80px;
+  line-height: 100%;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.artisanal__title-text {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.artisanal__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+}
+
+.infusing {
+  background: url(../images/infusing-bg.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.infusing__title {
+  max-width: 768px;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 80px;
+  line-height: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 318px 0 290px;
+  margin: 0 auto;
+}
+
+.answers {
+  padding: 80px 15px;
+}
+
+.answers__inner {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.answers__title {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 120%;
+  margin-bottom: 40px;
+}
+
+.answers__item {
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 16px;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.answers__triger {
+  display: flex;
+  cursor: pointer;
+}
+
+.answers__triger::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: #fff0f7;
+  border-radius: 20px;
+  right: 30px;
+  top: 13px;
+}
+
+.answers__triger::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-image: url(../images/answers-arrow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  right: 35px;
+  top: 17px;
+}
+
+.answers__triger__text {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.answers__content {
+  display: none;
+}
+
+.answers__item-active .answers__content {
+  display: block;
+}
+
+.answers__content-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  padding-top: 16px;
 }
 
 @media (max-width: 1356px) {
