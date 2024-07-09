@@ -1,3 +1,13 @@
+:root {
+  --color-black: #000;
+  --color-white: #fff;
+  --color-white-bg: #fff0f7;
+  --color-light-salmon: darksalmon;
+  --color-green: #abb249;
+  --color-orange: #e8a94c;
+  --color-red: #dd6249;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -43,8 +53,8 @@ body {
   font-family: "Manrope", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  color: #000;
-  background-color: #fff0f7;
+  color: var(--color-black);
+  background-color: var(--color-white-bg);
 }
 
 .container {
@@ -62,7 +72,7 @@ body {
   align-items: center;
   border-radius: 80px;
   padding: 17px 40px;
-  background-color: #fff;
+  background-color: var(--color-white);
   margin: 0 40px;
 }
 
@@ -81,7 +91,7 @@ body {
 .header__actions-item:hover {
   transform: scale(1.1);
   transition: 0.3s ease;
-  color: darksalmon;
+  color: var(--color-light-salmon);
 }
 
 .header__actions-link {
@@ -121,7 +131,7 @@ body {
   font-weight: 300;
   font-size: 80px;
   line-height: 100%;
-  color: #fff;
+  color: var(--color-white);
   margin-bottom: 24px;
 }
 
@@ -136,12 +146,12 @@ body {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   text-align: center;
-  background-color: #fff;
+  background-color: var(--color-white);
   transition: 0.3s ease;
 }
 
 .top__btn:hover {
-  background-color: darksalmon;
+  background-color: var(--color-light-salmon);
 }
 
 .seen {
@@ -230,7 +240,7 @@ body {
   padding: 12px 24px;
   width: 316px;
   height: 41px;
-  background-color: #abb249;
+  background-color: var(--color-green);
   font-weight: 700;
   font-size: 12px;
   line-height: 140%;
@@ -243,7 +253,7 @@ body {
 .feature__parfume-btn:hover {
   transform: scale(1.1);
   transition: 0.3s ease;
-  background-color: #e8a94c;
+  background-color: var(--color-orange);
 }
 
 .about {
@@ -293,7 +303,7 @@ body {
   padding: 12px 24px;
   width: 316px;
   height: 41px;
-  background-color: #abb249;
+  background-color: var(--color-green);
   font-weight: 700;
   font-size: 12px;
   line-height: 140%;
@@ -305,12 +315,12 @@ body {
 .about__btn:hover {
   transform: scale(1.1);
   transition: 0.3s ease;
-  background-color: #e8a94c;
+  background-color: var(--color-orange);
 }
 
 .create {
   padding: 16px 0 16px;
-  background-color: #e8a94c;
+  background-color: var(--color-orange);
 }
 
 .create__inner {
@@ -413,7 +423,7 @@ body {
 
 .reviews__list {
   max-width: 432px;
-  background-color: #fff;
+  background-color: var(--color-white);
   border-radius: 16px;
   padding: 40px 40px 24px;
   transition-duration: 0.5s;
@@ -464,7 +474,7 @@ body {
 
 .reviews__arrows-btn {
   border-radius: 100%;
-  background-color: #fff;
+  background-color: var(--color-white);
   width: 48px;
   height: 48px;
   transition-duration: 0.5s;
@@ -473,11 +483,11 @@ body {
 .reviews__arrows-btn:hover {
   transform: scale(1.1);
   transition: 0.4s ease;
-  background-color: darksalmon;
+  background-color: var(--color-light-salmon);
 }
 
 .footer {
-  background-color: #dd6249;
+  background-color: var(--color-red);
   border-radius: 16px;
   padding: 80px 40px;
   margin: 0 40px 40px;
@@ -498,7 +508,7 @@ body {
   font-weight: 300;
   font-size: 32px;
   line-height: 120%;
-  color: #fff;
+  color: var(--color-white);
   margin: 40px 0 24px;
 }
 
@@ -513,12 +523,12 @@ body {
   border-radius: 32px;
   border: none;
   stroke-width: 1px;
-  background-color: #fff;
+  background-color: var(--color-white);;
   padding: 8px 16px;
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
-  color: #000;
+  color: var(--color-black);
   margin-right: 8px;
 }
 
@@ -527,14 +537,14 @@ body {
   padding: 12px 20px;
   width: 115px;
   height: 40px;
-  background-color: #fff;
+  background-color: var(--color-white);;
   font-weight: 700;
   font-size: 12px;
   line-height: 140%;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   text-align: center;
-  color: #000;
+  color: var(--color-black);
 }
 
 .footer__content {
@@ -555,7 +565,7 @@ body {
   font-weight: 300;
   font-size: 24px;
   line-height: 120%;
-  color: #fff;
+  color: var(--color-white);;
   margin-bottom: 24px;
 }
 
@@ -573,7 +583,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
-  color: #fff;
+  color: var(--color-white);;
 }
 
 .footer__img {
@@ -608,7 +618,7 @@ body {
   font-weight: 300;
   font-size: 80px;
   line-height: 100%;
-  color: #fff;
+  color: var(--color-white);;
 }
 
 .goods {
@@ -659,7 +669,7 @@ body {
   padding: 12px 24px;
   width: 316px;
   height: 41px;
-  background-color: #abb249;
+  background-color: var(--color-green);
   font-weight: 700;
   font-size: 12px;
   line-height: 140%;
@@ -672,7 +682,7 @@ body {
 .goods__parfume-btn:hover {
   transform: scale(1.1);
   transition: 0.3s ease;
-  background-color: #e8a94c;
+  background-color: var(--color-orange);
 }
 
 /*-------About------*/
@@ -753,7 +763,7 @@ body {
   font-weight: 300;
   font-size: 80px;
   line-height: 100%;
-  color: #fff;
+  color: var(--color-white);;
   text-align: center;
   padding: 318px 0 290px;
   margin: 0 auto;
@@ -778,7 +788,7 @@ body {
 
 .answers__item {
   border-radius: 4px;
-  background-color: #fff;
+  background-color: var(--color-white);;
   padding: 16px;
   margin-bottom: 24px;
   position: relative;
@@ -794,7 +804,7 @@ body {
   position: absolute;
   width: 24px;
   height: 24px;
-  background-color: #fff0f7;
+  background-color: var(--color-white-bg);
   border-radius: 20px;
   right: 30px;
   top: 13px;
@@ -963,7 +973,7 @@ body {
     position: absolute;
     left: 0;
     width: 100%;
-    background-color: #e8a94c;
+    background-color: var(--color-orange);
     height: 2px;
     transition: 0.3s ease;
   }
@@ -999,7 +1009,7 @@ body {
     top: 0;
     bottom: 0;
     right: 0;
-    background-color: #abb249;
+    background-color: var(--color-green);
     display: flex;
     justify-content: center;
     align-items: center;
